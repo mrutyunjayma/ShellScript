@@ -64,7 +64,7 @@ Cron Format
 scss
 Copy code
 
-
+```
 
   *     *     *     *     *  command
   │     │     │     │     └─ Day of week (0-6) (0=Sunday)
@@ -73,6 +73,8 @@ Copy code
   │     └───────────────── Hour (0-23)
   └─────────────────────── Minute (0-59)
 
+
+```
 
 
 4. Stop a cron job
