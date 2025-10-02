@@ -56,4 +56,4 @@ ss -tuln | tee -a $LOGFILE
 echo -e "\n🔹 Last 5 Logins" | tee -a $LOGFILE
 last -n 5 | tee -a $LOGFILE
 
-echo -e "\n✅ Health check completed. Log saved at $LOGFILE"
+echo -e "\n Health check completed. Log saved at $LOGFILE"
